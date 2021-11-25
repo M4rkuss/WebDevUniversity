@@ -2,39 +2,39 @@ let carts = document.querySelectorAll('.add-to-cart')
 
 let products =[
   {
-    name: "Баскетбольний м'яч",
-    tagname: "basketball",
-    price: 150,
+    name: "Футбольний м'яч",
+    tagname: "football",
+    price: 500,
     inCart: 0,
   },
   {
-    name: "Футбольний м'яч",
-    tagname: "football",
-    price: 100,
+    name: "Кросівки Nike",
+    tagname: "nike",
+    price: 3100,
     inCart: 0
   },
 
   {
-    name: "М'яч для регбі",
-    tagname: "rugby",
-    price: 360,
+    name: "Кросівки Adidas",
+    tagname: "Adidas",
+    price: 2360,
     inCart: 0
   },
   {
-    name: "Футболка",
-    tagname: "t-shirt",
-    price: 200,
+    name: "Кросівки Puma",
+    tagname: "Puma",
+    price: 2000,
     inCart: 0
   },
-  {   name: "М'яч для тенісу",
-    tagname: "tennis",
-    price: 50,
+  {   name: "Футбольна форма",
+    tagname: "uniform",
+    price: 1000,
     inCart: 0
   },
   {
-    name: "Ракетка для тенісу",
-    tagname: "tennis-racket",
-    price: 127,
+    name: "Футбольний м'яч",
+    tagname: "football2",
+    price: 910,
     inCart: 0
   }
 ]
