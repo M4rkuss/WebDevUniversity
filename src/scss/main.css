@@ -1,0 +1,132 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin: 0;
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(30deg, #f8bdff 0%, #1696ff 67%);
+  color: black;
+  padding-left: 40px;
+  padding-top: 40px;
+  border: #4AA7DB 9px solid;
+}
+
+.container, .container1, .container2, .container3 {
+  background: lightgoldenrodyellow;
+  width: 100%;
+}
+
+.container-blocks {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 50px;
+  width: 100%;
+}
+
+.block {
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: black 8px 2px 10px;
+  height: 300px;
+  transition: 0.5s ease;
+}
+.block:hover {
+  transform: scale(1.1);
+}
+.block img {
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: black 1px solid;
+}
+.block h3 {
+  text-align: center;
+}
+.block h3 a {
+  color: #3552DB;
+  text-decoration: none;
+  cursor: pointer;
+}
+.block p {
+  text-align: center;
+}
+
+footer {
+  display: block;
+  background: linear-gradient(30deg, #f8bdff 0%, #1696ff 67%);
+  margin: 0;
+  padding: 10px;
+  color: black;
+  border: #4AA7DB 9px solid;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.container1 .cont1-image img {
+  width: 600px;
+  margin-right: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: black 8px 2px 10px;
+}
+
+.list {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: left;
+  padding: 10px 50px;
+  width: 40%;
+  color: black;
+  margin-left: 150px;
+  border: black 1px solid;
+  border-radius: 10px;
+}
+.list h1 {
+  text-align: center;
+}
+
+.parameters {
+  list-style: none;
+  line-height: 30px;
+}
+
+.container2, .container3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  height: 60vh;
+}
+
+.pers-block {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 30%;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: black 1px solid;
+  border-radius: 10px;
+  line-height: 30px;
+}
+.pers-block h3 {
+  text-align: center;
+}
+.pers-block ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=main.css.map */
